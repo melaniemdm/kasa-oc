@@ -1,7 +1,7 @@
 import './style.scss';
 import bannerHomme from '../../assets/bannerHome.png';
 function Banner() {
-  //  const txt = "Chez vous, partout et ailleurs";
+  const txt = "Chez vous, partout et ailleurs";
     return <div id='containerBanner'>
         
          <div className='bannerImg' >
@@ -10,8 +10,8 @@ function Banner() {
         </div>
         <div className="linearGradientBanner"></div>
 
-        <div id='containerTextbanner'>
-        <div id="texteBanner">Chez vous, partout et ailleurs</div>
+        <div className='containerTextbanner'>
+        <div className="texteBanner">{txt}</div>
 
         </div>
         

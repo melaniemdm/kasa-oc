@@ -1,17 +1,65 @@
 @import "../../styles/communs.scss";
-
-.bannerHome{
-    height: 223px; 
-    border-radius: 25px;
+.containerBanner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bannerHome {
+  height: 223px;
+  border-radius: 25px;
   width: 100%;
-  margin-top:80px;
+  margin-top: 80px;
   object-fit: cover;
 }
 .linearGradientBanner {
-position: relative;
-top: -228px;
-    background: $linearGradient;
-    border-radius: 25px;
-    width: 100%;
-    height: 223px;
+  position: relative;
+  top: -228px;
+  background: $linearGradient;
+  border-radius: 25px;
+  width: 100%;
+  height: 223px;
+}
+.containerTextbanner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.texteBanner {
+  color: white;
+  position: absolute;
+  top: 171px;
+  height: 223px;
+  font-size: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+@media #{$small-down} {
+  .bannerHome {
+    height: 111px;
+    border-radius: 10px;
+
+    margin-top: 80px;
+    object-fit: cover;
   }
+  .linearGradientBanner {
+    top: -116px;
+    border-radius: 10px;
+    height: 111px;
+  }
+  .containerTextbanner {
+    justify-content: flex-start;
+    margin-left: 16px;
+  }
+  .texteBanner {
+    position: absolute;
+    top: 131px;
+    height: 111px;
+    width: 217px;
+    font-size: 24px;
+    justify-content: flex-start;
+    text-align: left;
+  }
+}
