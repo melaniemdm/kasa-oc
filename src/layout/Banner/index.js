@@ -2,7 +2,7 @@ import './style.scss';
 import bannerHomme from '../../assets/bannerHome.png';
 function Banner() {
   const txt = "Chez vous, partout et ailleurs";
-    return <div id='containerBanner'>
+    return <div className='containerBanner'>
         
          <div className='bannerImg' >
         
