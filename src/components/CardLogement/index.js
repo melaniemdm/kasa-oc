@@ -1,16 +1,22 @@
 import './style.scss';
-import imageDuLogement from '../../assets/imgLogement.jpg';
+//import imageDuLogement from '../../assets/imgLogement.jpg';
 
-function CardLogement(){
-
+function CardLogement(props){
+    function handleClick(e) {
+        e.preventDefault();
+     
+    window.location.href="/logement/"+ props.idLogement;
+    
+      }
     return (
-        <div className="containerCard">
+        <div className="containerOneCard" onClick={handleClick}>
+            <div className="linearGradientHome"></div>
 <div className="containerImg">
 
-<img src={imageDuLogement} className="logoHeader" alt="logoHeader"></img>
+<img src={props.coverLogement} className="imgLogement" alt="logements"></img>
 
 </div>
-<div className="titleLogement">Appartement cosy</div>
+<div className="titleLogement">{props.titleLogement}</div>
         </div>
     )
 }

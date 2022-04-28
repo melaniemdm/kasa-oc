@@ -1,21 +1,30 @@
+@import "../../styles/communs.scss";
 
-
-.containerCard{
-height:340px;
-width: 340px;
-margin: 50px;
+.containerOneCard {
+  height: 340px;
+  width: 340px;
+  margin: 30px;
 }
 
-.containerImg img{
-    border-radius: 10px;
-    height:340px;
-width: 340px;
-object-fit: cover;
+.containerImg img {
+  border-radius: 10px;
+  height: 340px;
+  width: 340px;
+  object-fit: cover;
 }
-.titleLogement{
-    position: relative;
-    top: -50px;
-    color: white;
-    font-size:18px;
-    padding-left: 20px;
+.titleLogement {
+  position: relative;
+  top: -70px;
+  color: white;
+  font-size: 18px;
+  left: 20px;
+  right: 20px;
+  width: 300px;
+}
+.linearGradientHome {
+  position: absolute;
+  height: 340px;
+  width: 340px;
+  background: $linearGradient;
+  border-radius: 10px;
 }
