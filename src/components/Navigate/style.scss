@@ -1,0 +1,32 @@
+@import "../../styles/communs.scss";
+
+.containerNavigate {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  position: relative;
+  margin-top: -46px;
+}
+.navigate {
+  width: 310px;
+  display: flex;
+  justify-content: space-between;
+}
+.navigate a {
+  display: flex;
+  justify-content: flex-end;
+  width: 136px;
+  font-size: 24px;
+}
+@media #{$small-down} {
+  .containerNavigate {
+    margin-top: -51px;
+  }
+  .navigate {
+    justify-content: center;
+    width: 140px;
+  }
+  .navigate a {
+    font-size: 12px;
+  }
+}
