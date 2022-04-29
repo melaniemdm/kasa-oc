@@ -1,17 +1,23 @@
+import Galery from "../../components/Galery";
+import DescribeLogements from "../../components/DescribeLogement";
+import Footer from "../../layout/Footer";
+import { logements } from "../../datas/logements";
+import { useParams } from "react-router-dom";
+import Error404 from "../Error404";
 
-import CardLogement from '../../components/CardLogement';
-import Banner from '../../layout/Banner';
+function Logement() {
+  const { id } = useParams();
+  const logement = logements.find((logement) => logement.id === id);
+  if (!logement) {
+    return <Error404 />;
+  }
 
-
-function HomePages(){
-    return(
-        <div>
-        <Banner/>
-<div className="containerListLogements">
-<CardLogement/>
-
-</div></div>
-    )
+  return (
+    <div id="logementPage" className="logementPage">
+      <Galery pictures={logement.pictures} />
+      <DescribeLogements logement={logement} />
+      <Footer />
+    </div>
+  );
 }
-
-export default HomePages
+export default Logement;

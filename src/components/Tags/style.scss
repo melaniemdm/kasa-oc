@@ -1,0 +1,36 @@
+@import "../../styles/communs.scss";
+
+.containerTag {
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-start;
+  gap: 10px;
+  margin-top: 13px;
+}
+.tagsStyle {
+   width: 115px;
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: White;
+  background-color: red;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+@media #{$small-down} {
+  .tagsStyle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 84px;
+    height: 18px;
+    border-radius: 5px;
+    font-size: 10px;
+  }
+}

@@ -1,0 +1,114 @@
+@import "../../styles/communs.scss";
+
+#containerLogement {
+  position: relative;
+  top: 40px;
+  min-height: 40vh;
+ margin-left: 100px;margin-right: 100px;
+}
+
+#titleDuLogement {
+  color: $colorRed;
+  display: flex;
+  flex-wrap: wrap;
+  height: 52px;
+  font-size: 36px;
+  line-height: 142.6%;
+}
+#personnaLogement {
+  color:Red;
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+#nameOwner {
+  width: 93px;
+  height: 52px;
+  display: flex;
+  text-align: right;
+  margin-right: 10px;
+  font-size: 18px;
+}
+#photoOwner {
+  width: 50px;
+  border-radius: 50px;
+  text-align: center;
+}
+#localisationLogement {
+  width: 100%;
+  color: red;
+  width: 250px;
+  height: 26px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 142.6%;
+}
+
+#stars {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  right: 0;
+  top: 95px;
+
+  & img {
+    margin: 5px;
+  }
+}
+
+@media #{$medium-down} {
+  #titleDuLogement {
+    font-size: 20px;
+    position: relative;
+  }
+  #stars {
+    top: 50px;
+
+    & img {
+      width: 22px;
+      height: 22px;
+    }
+  }
+}
+
+@media #{$small-down} {
+  #containerLogement {
+    min-height: 30vh;
+   margin-left: 20px;margin-right: 20px;
+  }
+  #titleDuLogement {
+    width: 335px;
+    height: 46px;
+  }
+  #personnaLogement {
+    left: 0;
+    top: 120px;
+  }
+  #nameOwner {
+    height: 33px;
+    width: 53px;
+    font-size: 12px;
+  }
+  #photoOwner {
+    width: 32px;
+    border-radius: 32px;
+  }
+  #localisationLogement {
+    width: 323px;
+    height: 22px;
+  }
+  #stars {
+    position: relative;
+    justify-content: flex-start;
+    top: 13px;
+
+    & img {
+      margin-top: 18px;
+      margin-left: 5px;
+      width: 15px;
+      height: 15px;
+    }
+  }
+}
