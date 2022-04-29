@@ -1,24 +1,26 @@
-import './style.scss';
+import "./style.scss";
 //import imageDuLogement from '../../assets/imgLogement.jpg';
+import { Link } from "react-router-dom";
 
-function CardLogement(props){
-    function handleClick(e) {
-        e.preventDefault();
-     
-    window.location.href="/logement/"+ props.idLogement;
-    
-      }
-    return (
-        <div className="containerOneCard" onClick={handleClick}>
-            <div className="linearGradientHome"></div>
-<div className="containerImg">
+function CardLogement(props) {
+  return (
+   
+      <div className="containerOneCard">
 
-<img src={props.coverLogement} className="imgLogement" alt="logements"></img>
-
-</div>
-<div className="titleLogement">{props.titleLogement}</div>
+ <Link to={"/logement/" + props.idLogement}>
+        <div className="linearGradientHome"></div>
+        <div className="containerImg">
+          <img
+            src={props.coverLogement}
+            className="imgLogement"
+            alt="logements"
+          ></img>
         </div>
-    )
+        <div className="titleLogement">{props.titleLogement}</div>
+      </Link>
+      </div>
+    
+  );
 }
 
-export default CardLogement
+export default CardLogement;

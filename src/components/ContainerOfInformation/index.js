@@ -5,7 +5,7 @@ function ContainerOfInformation(props) {
 
 
     return (
-<div >
+<div>
         <div id={"titleCard"+props.name} className="containertitle">
 
           <div className="titleSection">
