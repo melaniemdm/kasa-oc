@@ -39,13 +39,13 @@
 
 @media #{$small-down} {
   .containerBanner {
+    height: 160px;
     margin-left: 20px;
     margin-right: 20px;
   }
   .bannerHome {
     height: 111px;
     border-radius: 10px;
-
     margin-top: 80px;
     object-fit: cover;
   }

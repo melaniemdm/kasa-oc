@@ -9,3 +9,9 @@
   margin-right: 15%;
   min-height: 60vh;
 }
+@media #{$small-down} {
+  .containerAProposDetail {
+    min-height: 30vh;
+
+  }
+}

@@ -5,7 +5,7 @@
   border-radius: 25px;
   margin-left: 100px;
   margin-right: 100px;
-  margin-top: -183px;
+  margin-top: 67px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -20,3 +20,11 @@
     background-color: white;
   }
 }
+
+
+@media #{$small-down} {
+  .containerListeLogement {
+  background-color: white;
+  margin-top: 4px;
+
+}}
