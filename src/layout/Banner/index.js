@@ -5,7 +5,7 @@ function Banner(props) {
         
          <div className='bannerImg' >
         
-        <img src={props.img} alt='banner ' className='bannerHome' />
+        <img src={props.img} alt='banner ' className='banner' />
         </div>
         <div className="linearGradientBanner"></div>
 
