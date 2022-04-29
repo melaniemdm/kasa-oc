@@ -17,14 +17,11 @@
   .containerListeLogement {
     margin-left: 10px;
     margin-right: 10px;
+     margin-top: -34px;
     background-color: white;
+  }
+  .bannerHome img{
+    height:111px;
   }
 }
 
-
-@media #{$small-down} {
-  .containerListeLogement {
-  background-color: white;
-  margin-top: 4px;
-
-}}

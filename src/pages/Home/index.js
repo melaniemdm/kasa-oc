@@ -7,7 +7,10 @@ import './style.scss';
 function HomePages(){
     return(
         <div>
-        <BannerHome/>
+            <div className="bannerHome">
+             <BannerHome/>    
+            </div>
+       
 <div>
 
 <div className="containerListeLogement"> {logements.map(logement=><CardLogement  key={logement.id} titleLogement={logement.title} coverLogement={logement.cover} idLogement={logement.id} />  )}   </div>
