@@ -1,0 +1,22 @@
+@import "../../styles/communs.scss";
+
+#errorPage {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+   flex-direction: column;
+      color: red;
+  
+  }
+  #numberError {
+    font-weight: bold;
+    font-size: 288px;
+  }
+  #messageError{
+      font-size: 36px;
+  }
+  
+  #lienAccueil{
+      margin-top: 229px;
+      font-size:18px;
+  }
