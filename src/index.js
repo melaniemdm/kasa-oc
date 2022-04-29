@@ -21,7 +21,7 @@ root.render(
       <Route exact path="/home" element={<Accueil />} />
       <Route exact path="/" element={<Accueil />} />
       <Route exact path="/apropos" element={<Propos />} />
-      <Route exact path="/logement" element={<Logements/>} />
+      <Route exact path="/logement/:id" element={<Logements/>} />
       <Route path="*" element={<Error404 />} />
     </Routes>
      <Footer/> 
