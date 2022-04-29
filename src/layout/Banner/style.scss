@@ -1,8 +1,8 @@
 @import "../../styles/communs.scss";
 .containerBanner {
-  
-  margin-left: 100px;
-  margin-right: 100px;
+  height: 278px;
+ margin-left: 100px;
+ margin-right: 100px;
 }
 .bannerHome {
   height: 223px;
@@ -10,6 +10,7 @@
   width: 100%;
   margin-top: 80px;
   object-fit: cover;
+  
 }
 .linearGradientBanner {
   position: relative;

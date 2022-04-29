@@ -1,4 +1,5 @@
-import ContainerOfInformation from '../../components/ContainerOfInformation'
+import ContainerOfInformation from '../../components/ContainerOfInformation';
+import BannerPropos from '../../components/BannerPropos';
 import './style.scss';
 
 function ProposPages (){
@@ -11,12 +12,19 @@ function ProposPages (){
     
     const textOfResponsabilite ="  La sécurité est la priorité de Kasa. Aussi pour nos hôtes que pour les voyageurs, chaque logement correspond aux criteres de sécurité établis par nos services. En laissant une note aussi bien à l'hôte qu'au locataire, cela permet à nos équipes de vérifier que les standards sont bien respectés. Nous organisons également des ateliers sur la securité domestique pour nos hôtes.";
 
-    return( <div className="containerAProposDetail">
+    return( 
+    <div>
+    <BannerPropos/>
+    <div className="containerAProposDetail">
     <ContainerOfInformation id="fiabilite" name ="Fiabilite" label="Fiabilité" textCard={textOfFiabilite} />
     <ContainerOfInformation id="respect" name ="Respect" label="Respect" textCard={textOfRespect} />      
     <ContainerOfInformation id="service" name ="Service" label="Service" textCard={textOfService} />   
     <ContainerOfInformation id="responsabilite" name ="Responsabilite" label="Responsabilite" textCard={textOfResponsabilite} />         
             
-            </div>)
+            </div>
+            
+      </div>      
+            
+            )
 }
 export default ProposPages
