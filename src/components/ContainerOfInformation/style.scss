@@ -1,21 +1,45 @@
+@import '../../styles/communs.scss';
+
 .containertitle {
-  height: 47px;
-  border-radius: 5px;
-  background: red;
-  color: White;
-  font-size: 24px;
-  cursor: pointer;
+  position: relative;
+  background: #ff6060;
+  color: #ffffff;
   display: flex;
-  justify-content: space-between;
-  padding-right: 18px;
   align-items: center;
-  text-align: center;
+  justify-content: space-between;
+  font-size: 24px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 31px;
+  height: 47px;
 }
 
 .titleSection {
-  outline: 1px solid black;
   display: flex;
   justify-content: space-between;
-
   margin-left: 18px;
+}
+.textOf {
+  background: #f7f7f7;
+  color: #ff6060;
+  font-size: 24px;
+  z-index: -2;
+  position: relative;
+  border-radius: 5px;
+  display: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 5px;
+  margin-top: -8px;
+}
+@media #{$small-down} {
+  .containertitle{
+ font-size:13px;
+ height: 30px;
+ margin-top: 20px;
+}
+.textOf {
+  font-size:12px;
+ }
 }

@@ -1,9 +1,11 @@
+@import '../../styles/communs.scss';
 .containerAProposDetail {
-  outline: 1px solid blue;
   position: relative;
-  top: 60px;
-  margin-left: 209px;
-  margin-right: 209px;
-  min-height: 50vh;
-  
+  padding-top: 31px;
+  padding-bottom: 31px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-left: 15%;
+  margin-right: 15%;
+  min-height: 60vh;
 }
