@@ -1,13 +1,13 @@
 
 import CardLogement from '../../components/CardLogement';
-import Banner from '../../layout/Banner';
+import BannerHome from '../../components/BannerHome';
 import {logements} from '.././../datas/logements'
 import './style.scss';
 
 function HomePages(){
     return(
         <div>
-        <Banner/>
+        <BannerHome/>
 <div>
 
 <div className="containerListeLogement"> {logements.map(logement=><CardLogement  key={logement.id} titleLogement={logement.title} coverLogement={logement.cover} idLogement={logement.id} />  )}   </div>

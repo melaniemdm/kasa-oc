@@ -7,7 +7,7 @@ import reportWebVitals from './reportWebVitals';
 import Header from '../src/layout/Header';
 import Footer from '../src/layout/Footer';
 import Accueil from '../src/pages/Home';
-import Propos from '../src/pages/Propos';
+import ProposPages from '../src/pages/ProposPages';
 import Logements from '../src/pages/Logements';
 import Error404 from '../src/pages/Error404';
 
@@ -20,7 +20,7 @@ root.render(
     <Routes>
       <Route exact path="/home" element={<Accueil />} />
       <Route exact path="/" element={<Accueil />} />
-      <Route exact path="/apropos" element={<Propos />} />
+      <Route exact path="/propos" element={<ProposPages />} />
       <Route exact path="/logement/:id" element={<Logements/>} />
       <Route path="*" element={<Error404 />} />
     </Routes>
