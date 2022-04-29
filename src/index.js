@@ -5,7 +5,7 @@ import './index.css';
 //import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Header from '../src/layout/Header';
-import Footer from '../src/layout/Footer';
+//import Footer from '../src/layout/Footer';
 import Accueil from '../src/pages/Home';
 import ProposPages from '../src/pages/ProposPages';
 import Logements from '../src/pages/Logements';
@@ -24,7 +24,7 @@ root.render(
       <Route exact path="/logement/:id" element={<Logements/>} />
       <Route path="*" element={<Error404 />} />
     </Routes>
-     <Footer/> 
+   
   </Router>
 
   </React.StrictMode>,

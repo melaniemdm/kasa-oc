@@ -1,4 +1,4 @@
-
+import Footer from '../../layout/Footer';
 import CardLogement from '../../components/CardLogement';
 import BannerHome from '../../components/BannerHome';
 import {logements} from '.././../datas/logements'
@@ -17,7 +17,9 @@ function HomePages(){
 
 
 
-</div></div>
+</div>
+<Footer/> 
+</div>
     )
 }
 

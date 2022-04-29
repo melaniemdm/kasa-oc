@@ -1,5 +1,6 @@
 import ContainerOfInformation from '../../components/ContainerOfInformation';
 import BannerPropos from '../../components/BannerPropos';
+import Footer from '../../layout/Footer';
 import './style.scss';
 
 function ProposPages (){
@@ -22,7 +23,7 @@ function ProposPages (){
     <ContainerOfInformation id="responsabilite" name ="Responsabilite" label="Responsabilite" textCard={textOfResponsabilite} />         
             
             </div>
-            
+            <Footer/>
       </div>      
             
             )
