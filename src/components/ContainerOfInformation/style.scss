@@ -1,6 +1,6 @@
 @import '../../styles/communs.scss';
 
-.containertitle {
+.containertitle  {
   position: relative;
   background: #ff6060;
   color: #ffffff;
@@ -10,8 +10,9 @@
   border-radius: 10px;
   cursor: pointer;
   margin-top: 23px;
-  height: 47px;
-}
+ }
+
+
 .titleSectionLogement{
   font-size:18px;
   display: flex;
@@ -24,19 +25,24 @@
   justify-content: space-between;
   margin-left: 18px;
 }
+#textOfFiabilite, #textOfRespect, #textOfService, #textOfResponsabilite{
+  font-size:24px;
+  border-radius: 5px;
+}
 
+#textOfDescribe, #textOfEquipement{
+  font-size:18px;
+  border-radius: 10px;
+}
 .textOf {
   background: #f7f7f7;
   color: #ff6060;
   font-size: 18px;
   z-index: -2;
   position: relative;
-  border-radius: 10px;
-  display: none;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 20px;
-  padding-right: 5px;
+  display: flex;
+  align-items: flex-start;
+  padding:20px;
   margin-top: -8px;
   line-height: 142.6%;
   height:249px;
@@ -52,9 +58,13 @@
   font-size:13px;
 }
 
-.textOf {
+#textOfFiabilite, #textOfRespect, #textOfService, #textOfResponsabilite, #textOfDescribe, #textOfEquipement{
   font-size:12px;
-  
- }
+  border-radius:5px;
+} 
+
+.containertitleLogement, .containertitlepropos{
+  border-radius:5px;
+}
 }
 
