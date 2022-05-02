@@ -36,9 +36,8 @@ function DescribeLogements(props) {
         
  <div id="localisationLogement">{props.logement.location}</div>
 
-        <div id="tags">
           <Tags titleTag={props.logement} />
-        </div>
+       
       
 
      

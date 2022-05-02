@@ -2,10 +2,8 @@
 
 .containerlogement {
   position: relative;
- display:grid;
- grid-template-columns: 1fr 1fr;
-  padding-top: 31px;
-  padding-bottom: 31px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 76px;
   min-height: 50vh;
 }
@@ -15,6 +13,6 @@ ul {
 
 @media #{$medium-down} {
   .containerlogement {
-    grid-template-columns: 1fr
+    grid-template-columns: 1fr;
   }
 }

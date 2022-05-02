@@ -7,10 +7,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 24px;
-  border-radius: 5px;
+  border-radius: 10px;
   cursor: pointer;
-  margin-top: 31px;
+  margin-top: 23px;
   height: 47px;
 }
 
@@ -18,28 +17,40 @@
   display: flex;
   justify-content: space-between;
   margin-left: 18px;
+  font-size:18px;
 }
 .textOf {
   background: #f7f7f7;
   color: #ff6060;
-  font-size: 24px;
+  font-size: 18px;
   z-index: -2;
   position: relative;
-  border-radius: 5px;
+  border-radius: 10px;
   display: none;
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 20px;
   padding-right: 5px;
   margin-top: -8px;
+  line-height: 142.6%;
+  height:249px;
 }
+
 @media #{$small-down} {
   .containertitle{
- font-size:13px;
- height: 30px;
+  height: 30px;
  margin-top: 20px;
 }
+.titleSection {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 13px;
+  font-size:13px;
+}
+
 .textOf {
   font-size:12px;
+  
  }
 }
+

@@ -4,7 +4,9 @@
   position: relative;
   top: 40px;
   min-height: 40vh;
- margin-left: 100px;margin-right: 100px;
+ margin-left: 100px;
+ margin-right: 100px;
+
 }
 
 #titleDuLogement {
@@ -16,7 +18,7 @@
   line-height: 142.6%;
 }
 #personnaLogement {
-  color:Red;
+  color:$colorRed;
   display: flex;
   justify-content: flex-end;
   position: absolute;
@@ -38,7 +40,7 @@
 }
 #localisationLogement {
   width: 100%;
-  color: red;
+  color: $colorRed;
   width: 250px;
   height: 26px;
   font-weight: 500;
