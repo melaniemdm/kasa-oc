@@ -12,13 +12,19 @@
   margin-top: 23px;
   height: 47px;
 }
-
-.titleSection {
+.titleSectionLogement{
+  font-size:18px;
   display: flex;
   justify-content: space-between;
   margin-left: 18px;
-  font-size:18px;
 }
+.titleSectionPropos{
+  font-size:24px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 18px;
+}
+
 .textOf {
   background: #f7f7f7;
   color: #ff6060;
@@ -41,10 +47,8 @@
   height: 30px;
  margin-top: 20px;
 }
-.titleSection {
-  display: flex;
-  justify-content: space-between;
-  margin-left: 13px;
+.titleSectionLogement, .titleSectionPropos {
+   margin-left: 13px;
   font-size:13px;
 }
 

@@ -8,7 +8,7 @@ function ContainerOfInformation(props) {
 <div>
         <div id={"titleCard"+props.name} className="containertitle">
 
-          <div className="titleSection">
+          <div className="titleSectionLogement titleSectionPropos">
            {props.label}</div>
             <Collapse name={props.name}/>
         </div>
