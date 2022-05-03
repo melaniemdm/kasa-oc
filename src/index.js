@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { HashRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import '../src/styles/index.scss';
 //import App from './App';
 import reportWebVitals from './reportWebVitals';
@@ -14,20 +14,20 @@ import Error404 from '../src/pages/Error404';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-   <Router>
-    <Header />
+    <Router>
+      <Header />
     
-    <Routes>
-      <Route exact path="/home" element={<Accueil />} />
-      <Route exact path="/" element={<Accueil />} />
-      <Route exact path="/propos" element={<ProposPages />} />
-      <Route exact path="/logement/:id" element={<Logements/>} />
-      <Route path="*" element={<Error404 />} />
-    </Routes>
+      <Routes>
+        <Route exact path="/home" element={<Accueil />} />
+        <Route exact path="/" element={<Accueil />} />
+        <Route exact path="/propos" element={<ProposPages />} />
+        <Route exact path="/logement/:id" element={<Logements/>} />
+        <Route path="*" element={<Error404 />} />
+      </Routes>
    
-  </Router>
+    </Router>
 
-  </React.StrictMode>,
+  </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function

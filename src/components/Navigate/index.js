@@ -4,11 +4,11 @@ import {Link} from 'react-router-dom';
 
 function Navigate(){
 
-    return <div className="containerNavigate">
-   <nav className="navigate">
-   <Link to="/home " className="accueil">Accueil</Link> 
-   <Link to="/propos" className="apropos">A propos</Link>
+  return <div className="containerNavigate">
+    <nav className="navigate">
+      <Link to="/home " className="accueil">Accueil</Link> 
+      <Link to="/propos" className="apropos">A propos</Link>
     </nav>
-    </div>
+  </div>;
 }
-export default Navigate
+export default Navigate;

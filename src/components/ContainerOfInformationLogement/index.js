@@ -1,5 +1,5 @@
-import "./style.scss";
-import ContainerOfInformation from '../../components/ContainerOfInformation'
+import './style.scss';
+import ContainerOfInformation from '../../components/ContainerOfInformation';
 
 function ContainerOfInformationLogement(props) {
   const texteCard = (
@@ -11,7 +11,7 @@ function ContainerOfInformationLogement(props) {
   const listeCard = (
     <div id="listeCard">
       <ul>
-        {" "}
+        {' '}
         <li>
           {props.listCard.equipments.map((list, index) => (
             <div key={index} id="listeDescribe">
@@ -27,10 +27,10 @@ function ContainerOfInformationLogement(props) {
   return (
     <div className="containerlogement">
 
-     <ContainerOfInformation id="description" name ="Describe" label="Description" textCard={texteCard} className="containerLogementInfo"/>
-     <ContainerOfInformation id="equipement" name ="Equipement" label="Equipement" textCard={listeCard} className="containerLogementInfo"/>
+      <ContainerOfInformation id="description" name ="Describe" label="Description" textCard={texteCard} className="containerLogementInfo"/>
+      <ContainerOfInformation id="equipement" name ="Equipement" label="Equipement" textCard={listeCard} className="containerLogementInfo"/>
 
-        </div>
+    </div>
   );
 }
 export default ContainerOfInformationLogement;

@@ -1,13 +1,13 @@
-import "./style.scss";
-//import imageDuLogement from '../../assets/imgLogement.jpg';
-import { Link } from "react-router-dom";
+import './style.scss';
+
+import { Link } from 'react-router-dom';
 
 function CardLogement(props) {
   return (
    
-      <div className="containerOneCard">
+    <div className="containerOneCard">
 
- <Link to={"/logement/" + props.idLogement}>
+      <Link to={'/logement/' + props.idLogement}>
         <div className="linearGradientHome"></div>
         <div className="containerImg">
           <img
@@ -18,7 +18,7 @@ function CardLogement(props) {
         </div>
         <div className="titleLogement">{props.titleLogement}</div>
       </Link>
-      </div>
+    </div>
     
   );
 }

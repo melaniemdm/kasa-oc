@@ -1,11 +1,12 @@
-import "./style.scss";
+import './style.scss';
+import React from 'react';
 
 
 function TagsLogements(props ){
-    return <div className="containerTag">{props.titleTag.tags.map((tag, index) =><div key={index}
+  return <div className="containerTag">{props.titleTag.tags.map((tag, index) =><div key={index}
     className="tagsStyle">{tag}</div>
 
-    )}
-</div>
+  )}
+  </div>;
 }
-export default TagsLogements
+export default TagsLogements;

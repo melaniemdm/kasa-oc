@@ -7,15 +7,15 @@ import Navigate from '../../components/Navigate';
 
 function Header(){
    
-    return (
-        <header>
-<div className="containerLogoHeader">
-<img src={logoHeader} className="logoHeader" alt="logoHeader"></img>
-</div>
-<Navigate/>
+  return (
+    <header>
+      <div className="containerLogoHeader">
+        <img src={logoHeader} className="logoHeader" alt="logoHeader"></img>
+      </div>
+      <Navigate/>
 
-        </header>
-    )
+    </header>
+  );
         
 }
-export default Header
+export default Header;

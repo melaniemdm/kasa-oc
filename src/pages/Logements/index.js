@@ -1,9 +1,9 @@
-import Galery from "../../components/Galery";
-import DescribeLogements from "../../components/DescribeLogement";
-import Footer from "../../layout/Footer";
-import { logements } from "../../datas/logements";
-import { useParams } from "react-router-dom";
-import Error404 from "../Error404";
+import Galery from '../../components/Galery';
+import DescribeLogements from '../../components/DescribeLogement';
+import Footer from '../../layout/Footer';
+import { logements } from '../../datas/logements';
+import { useParams } from 'react-router-dom';
+import Error404 from '../Error404';
 
 function Logement() {
   const { id } = useParams();
