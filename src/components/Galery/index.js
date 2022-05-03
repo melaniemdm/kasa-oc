@@ -1,7 +1,7 @@
-import React, { useState } from "react";
-import "./style.scss";
-import previous from "../../assets/vectorPrevious.png";
-import next from "../../assets/vectorNext.png";
+import React, { useState } from 'react';
+import './style.scss';
+import previous from '../../assets/vectorPrevious.png';
+import next from '../../assets/vectorNext.png';
 
 function Galery(props) {
   const [numberPicture, setNumberPicture] = useState(0);
