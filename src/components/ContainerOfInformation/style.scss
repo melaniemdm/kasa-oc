@@ -30,12 +30,14 @@
 #textOfResponsabilite {
   font-size: 24px;
   border-radius: 5px;
+ 
 }
 
 #textOfDescribe,
 #textOfEquipement {
   font-size: 18px;
   border-radius: 10px;
+  
 }
 .textOf {
   background: #f7f7f7;
@@ -43,7 +45,7 @@
   font-size: 18px;
   z-index: -2;
   position: relative;
-  display: flex;
+  display: none;
   align-items: flex-start;
   padding: 20px;
   margin-top: -8px;
