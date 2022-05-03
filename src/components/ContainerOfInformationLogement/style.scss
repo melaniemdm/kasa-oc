@@ -16,11 +16,14 @@ ul {
   display: flex;
   justify-content: space-between;
   margin-left: 18px;
-  
-}
+  }
 
 @media #{$medium-down} {
   .containerlogement {
     grid-template-columns: 1fr;
+  }
+  .containerLogementInfo{
+    font-size:13px;
+   
   }
 }

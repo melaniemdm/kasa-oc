@@ -3,15 +3,12 @@
   position: relative;
   padding-top: 31px;
   padding-bottom: 31px;
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-left: 15%;
-  margin-right: 15%;
-  min-height: 60vh;
+  margin-left: 208px;
+  margin-right: 209px;
+   min-height: 60vh;
 }
 .containerPropos{
-  outline:1px solid black;
-  font-size:24px;
+   font-size:24px;
   display: flex;
   justify-content: space-between;
   margin-left: 18px;
@@ -21,5 +18,10 @@
   .containerAProposDetail {
     min-height: 45vh;
     padding-top: 75px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .containerPropos{
+    font-size:13px;
   }
 }

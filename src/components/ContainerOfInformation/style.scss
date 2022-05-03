@@ -56,12 +56,12 @@
     //height: 30px;
     margin-top: 20px;
   }
-  .titleSectionLogement,
-  .titleSectionPropos {
-    margin-left: 13px;
-    font-size: 13px;
+  .containertitlecontainerLogementInfo, .containertitlecontainerPropos {
+    height:30px;
   }
-
+  .containertitlecontainerLogementInfo {
+    border-radius: 5px;
+  }
   #textOfFiabilite,
   #textOfRespect,
   #textOfService,
@@ -70,6 +70,7 @@
   #textOfEquipement {
     font-size: 12px;
     border-radius: 5px;
+    height:143px;
   }
 
   .containertitleLogement,
