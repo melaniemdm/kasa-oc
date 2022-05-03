@@ -27,8 +27,8 @@ function ContainerOfInformationLogement(props) {
   return (
     <div className="containerlogement">
 
-     <ContainerOfInformation id="description" name ="Describe" label="Description" textCard={texteCard} />
-     <ContainerOfInformation id="equipement" name ="Equipement" label="Equipement" textCard={listeCard} />
+     <ContainerOfInformation id="description" name ="Describe" label="Description" textCard={texteCard} className="containerLogementInfo"/>
+     <ContainerOfInformation id="equipement" name ="Equipement" label="Equipement" textCard={listeCard} className="containerLogementInfo"/>
 
         </div>
   );

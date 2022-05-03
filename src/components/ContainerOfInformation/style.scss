@@ -1,37 +1,40 @@
-@import '../../styles/communs.scss';
+@import "../../styles/communs.scss";
 
-.containertitle  {
+.containertitlecontainerLogementInfo {
+  height:52px;
+  border-radius: 10px;
   position: relative;
   background: #ff6060;
   color: #ffffff;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-radius: 10px;
   cursor: pointer;
   margin-top: 23px;
- }
-
-
-.titleSectionLogement{
-  font-size:18px;
-  display: flex;
-  justify-content: space-between;
-  margin-left: 18px;
 }
-.titleSectionPropos{
-  font-size:24px;
+.containertitlecontainerPropos {
+  height:47px;
+  border-radius: 5px;
+  position: relative;
+  background: #ff6060;
+  color: #ffffff;
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  margin-left: 18px;
+  cursor: pointer;
+  margin-top: 23px;
 }
-#textOfFiabilite, #textOfRespect, #textOfService, #textOfResponsabilite{
-  font-size:24px;
+#textOfFiabilite,
+#textOfRespect,
+#textOfService,
+#textOfResponsabilite {
+  font-size: 24px;
   border-radius: 5px;
 }
 
-#textOfDescribe, #textOfEquipement{
-  font-size:18px;
+#textOfDescribe,
+#textOfEquipement {
+  font-size: 18px;
   border-radius: 10px;
 }
 .textOf {
@@ -42,29 +45,35 @@
   position: relative;
   display: flex;
   align-items: flex-start;
-  padding:20px;
+  padding: 20px;
   margin-top: -8px;
   line-height: 142.6%;
-  height:249px;
+  height: 249px;
 }
 
 @media #{$small-down} {
-  .containertitle{
-  height: 30px;
- margin-top: 20px;
-}
-.titleSectionLogement, .titleSectionPropos {
-   margin-left: 13px;
-  font-size:13px;
-}
+  .containertitle {
+    //height: 30px;
+    margin-top: 20px;
+  }
+  .titleSectionLogement,
+  .titleSectionPropos {
+    margin-left: 13px;
+    font-size: 13px;
+  }
 
-#textOfFiabilite, #textOfRespect, #textOfService, #textOfResponsabilite, #textOfDescribe, #textOfEquipement{
-  font-size:12px;
-  border-radius:5px;
-} 
+  #textOfFiabilite,
+  #textOfRespect,
+  #textOfService,
+  #textOfResponsabilite,
+  #textOfDescribe,
+  #textOfEquipement {
+    font-size: 12px;
+    border-radius: 5px;
+  }
 
-.containertitleLogement, .containertitlepropos{
-  border-radius:5px;
+  .containertitleLogement,
+  .containertitlepropos {
+    border-radius: 5px;
+  }
 }
-}
-

@@ -9,6 +9,14 @@
   margin-right: 15%;
   min-height: 60vh;
 }
+.containerPropos{
+  outline:1px solid black;
+  font-size:24px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 18px;
+}
+
 @media #{$small-down} {
   .containerAProposDetail {
     min-height: 45vh;

@@ -17,10 +17,10 @@ function ProposPages (){
     <div>
     <BannerPropos/>
     <div className="containerAProposDetail">
-    <ContainerOfInformation id="fiabilite" name ="Fiabilite" label="Fiabilité" textCard={textOfFiabilite} />
-    <ContainerOfInformation id="respect" name ="Respect" label="Respect" textCard={textOfRespect} />      
-    <ContainerOfInformation id="service" name ="Service" label="Service" textCard={textOfService} />   
-    <ContainerOfInformation id="responsabilite" name ="Responsabilite" label="Responsabilite" textCard={textOfResponsabilite} />         
+    <ContainerOfInformation id="fiabilite" name ="Fiabilite" label="Fiabilité" textCard={textOfFiabilite} className="containerPropos"/>
+    <ContainerOfInformation id="respect" name ="Respect" label="Respect" textCard={textOfRespect} className="containerPropos"/>      
+    <ContainerOfInformation id="service" name ="Service" label="Service" textCard={textOfService} className="containerPropos"/>   
+    <ContainerOfInformation id="responsabilite" name ="Responsabilite" label="Responsabilite" textCard={textOfResponsabilite} className="containerPropos"/>         
             
             </div>
             <Footer/>

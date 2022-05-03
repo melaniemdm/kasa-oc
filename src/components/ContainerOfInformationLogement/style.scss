@@ -10,6 +10,14 @@
 ul {
   list-style: none;
 }
+.containerLogementInfo{
+  outline: 1px solid black;
+  font-size:18px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 18px;
+  
+}
 
 @media #{$medium-down} {
   .containerlogement {
