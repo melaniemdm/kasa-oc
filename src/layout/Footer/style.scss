@@ -1,7 +1,7 @@
 @import "../../styles/communs.scss";
 
 footer {
-  background-color: #000000;
+  background-color: $colorBlack;
   height: 209px;
   width: 100%;
   position: absolute;
@@ -14,7 +14,7 @@ footer {
 }
 
 .texteFooter {
-  color: white;
+  color: $colorWhite;
   margin-top: 31px;
   font-size: 24px;
 }

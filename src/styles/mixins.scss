@@ -1,7 +1,7 @@
 @mixin containerTitle {
   position: relative;
-  background: #ff6060;
-  color: #ffffff;
+  background: $colorRed;
+  color: $colorWhite;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -9,8 +9,8 @@
   margin-top: 23px;
 }
 @mixin containerTexte {
-  background: #f7f7f7;
-  color: #ff6060;
+  background: $colorGreylight;
+  color: $colorRed;
   z-index: -2;
   position: relative;
   display: none;
