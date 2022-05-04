@@ -5,9 +5,8 @@
   width: 340px;
   margin: 30px;
 }
-
 .containerImg img {
-  border-radius: 10px;
+  border-radius: $borderRadiusCardLogement;
   height: 340px;
   width: 340px;
   object-fit: cover;
@@ -32,5 +31,10 @@ a:link{
   height: 340px;
   width: 340px;
   background: $linearGradient;
-  border-radius: 10px;
+  border-radius: $borderRadiusCardLogement;
+}
+@media #{$small-down} {
+  .titleLogement {
+    font-size: 14px;
+  }
 }
