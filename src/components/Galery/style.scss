@@ -4,13 +4,12 @@
   position: relative;
   top: 14px;
   margin-top:20px;
-  border-radius: 25px;
- margin-left: 100px;
- margin-right: 100px;
+  border-radius: $borderRadiusGalery;
+  @include marginDesktop;
 }
 #contenairPictureLogement img {
   position: absolute;
-  border-radius: 25px;
+  border-radius: $borderRadiusGalery;
   height: 415px;
   width: 100%;
   object-fit: cover;
@@ -36,8 +35,7 @@
 }
 @media #{$small-down} {
   #containerGalery {
-    margin-left: 20px;
- margin-right: 20px;
+    @include marginMobile;
   }
   #contenairPictureLogement img,
   #containerArrow {
