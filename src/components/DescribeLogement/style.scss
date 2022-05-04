@@ -4,8 +4,7 @@
   position: relative;
   top: 40px;
   min-height: 40vh;
- margin-left: 100px;
- margin-right: 100px;
+@include marginDesktop;
 
 }
 
@@ -15,7 +14,7 @@
   flex-wrap: wrap;
   height: 52px;
   font-size: 36px;
-  line-height: 142.6%;
+  line-height: $lineHeight;
 }
 #personnaLogement {
   color:$colorRed;
@@ -45,7 +44,7 @@
   height: 26px;
   font-weight: 500;
   font-size: 18px;
-  line-height: 142.6%;
+  line-height: $lineHeight;
 }
 
 #stars {
@@ -78,7 +77,7 @@
 @media #{$small-down} {
   #containerLogement {
     min-height: 30vh;
-   margin-left: 20px;margin-right: 20px;
+ @include marginMobile;
   }
   #titleDuLogement {
     width: 335px;
@@ -95,7 +94,7 @@
   }
   #photoOwner {
     width: 32px;
-    border-radius: 32px;
+   
   }
   #localisationLogement {
     width: 323px;

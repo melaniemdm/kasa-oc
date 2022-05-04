@@ -1,21 +1,29 @@
 @mixin containerTitle {
-    position: relative;
-    background: #ff6060;
-    color: #ffffff;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    cursor: pointer;
-    margin-top: 23px;  
+  position: relative;
+  background: #ff6060;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  margin-top: 23px;
 }
-@mixin containerTexte{
-    background: #f7f7f7;
-    color: #ff6060;
-    z-index: -2;
-    position: relative;
-    display: none;
-    align-items: flex-start;
-    padding: 20px;
-    margin-top: -15px;
-    margin-bottom:50px;
+@mixin containerTexte {
+  background: #f7f7f7;
+  color: #ff6060;
+  z-index: -2;
+  position: relative;
+  display: none;
+  align-items: flex-start;
+  padding: 20px;
+  margin-top: -15px;
+  margin-bottom: 50px;
+}
+@mixin marginDesktop {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+@mixin marginMobile {
+  margin-left: 20px;
+  margin-right: 20px;
 }
