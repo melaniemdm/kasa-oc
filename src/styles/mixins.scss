@@ -1,0 +1,21 @@
+@mixin containerTitle {
+    position: relative;
+    background: #ff6060;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    margin-top: 23px;  
+}
+@mixin containerTexte{
+    background: #f7f7f7;
+    color: #ff6060;
+    z-index: -2;
+    position: relative;
+    display: none;
+    align-items: flex-start;
+    padding: 20px;
+    margin-top: -15px;
+    margin-bottom:50px;
+}
