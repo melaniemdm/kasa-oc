@@ -7,14 +7,12 @@
 .icone span {
   cursor: pointer;
   margin-right: 18px;
-  font-size: 40px;
+  font-size: $fontSizeArrow;
 }
 @media #{$small-down} {
   .icone span {
-    font-size: 20px;
-  }
-  .icone span {
+    font-size: $fontSizeArrowMobile;
     margin-right: 5px;
-    font-size: 20px;
   }
+ 
 }
