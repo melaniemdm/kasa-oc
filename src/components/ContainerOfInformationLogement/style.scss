@@ -13,21 +13,22 @@ ul {
   margin-left: -40px;
 }
 #texteCard {
-  margin-top:15px;
+  margin-top: 15px;
 }
-.containerLogementInfo{
-  font-size:18px;
+.containerLogementInfo {
+  font-size: 18px;
   display: flex;
   justify-content: space-between;
   margin-left: 18px;
-  }
+}
 
-@media #{$medium-down} {
+@media #{$small-down} {
   .containerlogement {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
   }
-  .containerLogementInfo{
-    font-size:13px;
-   
+  .containerLogementInfo {
+    font-size: 13px;
   }
 }
