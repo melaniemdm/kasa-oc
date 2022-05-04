@@ -1,10 +1,9 @@
 @import '../../styles/communs.scss';
 
 .containerListeLogement {
-  background-color: #f7f7f7;
+  background-color: $colorGreylight;
   border-radius: 25px;
-  margin-left: 100px;
-  margin-right: 100px;
+ @include marginDesktop;
   margin-top: 67px;
   display: flex;
   flex-wrap: wrap;
@@ -15,10 +14,9 @@
 
 @media #{$small-down} {
   .containerListeLogement {
-    margin-left: 10px;
-    margin-right: 10px;
+    @include marginMobile;
      margin-top: -34px;
-    background-color: white;
+    background-color: $colorWhite;
   }
   .bannerHome img{
     height:111px;
