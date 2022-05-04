@@ -1,27 +1,26 @@
-@import '../../styles/communs.scss';
+@import "../../styles/communs.scss";
 
-footer{
-    background-color:#000000;
-    height:209px;
-    width: 100%;
-   position:absolute;
-   text-align:center;
-margin-top:20px;
+footer {
+  background-color: #000000;
+  height: 209px;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  margin-top: 20px;
 }
-.logoFooter{
-    margin-top:66px;
-    width:100px;
+.logoFooter {
+  margin-top: 66px;
+  width: 100px;
 }
 
-.texteFooter{
-    color: white;
-    margin-top:31px;
-    font-size:24px;
+.texteFooter {
+  color: white;
+  margin-top: 31px;
+  font-size: 24px;
 }
 
 @media #{$small-down} {
-    .texteFooter{
-        font-size:12px;
-    }
+  .texteFooter {
+    font-size: 12px;
+  }
 }
-

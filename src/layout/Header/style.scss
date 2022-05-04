@@ -1,23 +1,21 @@
-@import '../../styles/communs.scss';
+@import "../../styles/communs.scss";
 
-header{
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top:40px;
+header {
+  @include marginDesktop;
+  margin-top: 40px;
 }
-.containerLogoHeader img{
-    width: 210px;
-    height: 62px;
+.containerLogoHeader img {
+  width: 210px;
+  height: 62px;
 }
 
 @media #{$small-down} {
-    header{
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top:20px;
-}
-.containerLogoHeader img{
+  header {
+    @include marginMobile;
+    margin-top: 20px;
+  }
+  .containerLogoHeader img {
     width: 146px;
     height: 40px;
-}
+  }
 }
