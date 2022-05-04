@@ -2,21 +2,19 @@
 
 .arrowUp {
   display: none;
- 
 }
- 
- .icone span {
-   cursor: pointer;
-   margin-right:18px;
-   font-size:40px;
+
+.icone span {
+  cursor: pointer;
+  margin-right: 18px;
+  font-size: 40px;
 }
 @media #{$small-down} {
   .icone span {
-    font-size:20px;
+    font-size: 20px;
   }
   .icone span {
-  
-    margin-right:5px;
-    font-size:20px;
- }
+    margin-right: 5px;
+    font-size: 20px;
+  }
 }
