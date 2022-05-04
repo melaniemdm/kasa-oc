@@ -1,10 +1,10 @@
 @import '../../styles/communs.scss';
+
 .containerAProposDetail {
   position: relative;
   padding-top: 31px;
   padding-bottom: 31px;
-  margin-left: 208px;
-  margin-right: 209px;
+  @include marginAPropos;
    min-height: 60vh;
 }
 .containerPropos{
@@ -18,8 +18,7 @@
   .containerAProposDetail {
     min-height: 45vh;
     padding-top: 75px;
-    margin-left: 20px;
-    margin-right: 20px;
+    @include marginMobile;
   }
   .containerPropos{
     font-size:13px;
