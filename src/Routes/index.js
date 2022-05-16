@@ -5,7 +5,7 @@ import Logements from '../pages/Logements';
 import Error404 from '../pages/Error404';
 import Header from '../layout/Header';
 
-function RoutesToto(){
+function CustomsRoutes(){
   return (
     <Router>
       <Header />
@@ -22,4 +22,4 @@ function RoutesToto(){
   );
 }
 
-export default RoutesToto;
+export default CustomsRoutes;

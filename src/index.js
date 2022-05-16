@@ -4,15 +4,14 @@ import ReactDOM from 'react-dom/client';
 import '../src/styles/index.scss';
 //import App from './App';
 import reportWebVitals from './reportWebVitals';
-import RoutesToto from '../src/Routes';
+import Routes from '../src/Routes';
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <RoutesToto />
-
+    <Routes />
   </React.StrictMode>
 );
 
