@@ -19,3 +19,23 @@
   margin-top: 229px;
   font-size: 18px;
 }
+@media #{$small-down} {
+  #numberError {
+    margin-top: 210px;
+    font-size: 85px;
+    width: 198px;
+  }
+  #messageError {
+    font-size: 18px;
+    width: 260px;
+    margin-top: 11px;
+    text-align: center;
+    padding: 5px;
+  }
+  #lienAccueil {
+    margin-top: 133px;
+    font-size: 14px;
+    width: 221px;
+    text-align: center;
+  }
+}
