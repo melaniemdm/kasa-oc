@@ -60,6 +60,7 @@ function Galery(props) {
           alt="Galery des logements"
         ></img>
       </div>
+      <div id="containerArrow"></div>
     </div>
   );
 }

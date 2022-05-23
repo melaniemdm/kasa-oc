@@ -3,7 +3,7 @@
 #containerGalery {
   position: relative;
   top: 14px;
-  margin-top:20px;
+  margin-top: 20px;
   border-radius: $borderRadiusGalery;
   @include marginDesktop;
 }
@@ -18,20 +18,19 @@
 #containerArrow {
   height: 415px;
   position: relative;
- display: flex;
- justify-content: space-between;
- 
-}
-#iconLeft{
-  margin-left:25px;
   display: flex;
- align-items: center;
+  justify-content: space-between;
 }
-#iconRight{
-  margin-right:25px;
- display: flex;
- align-items: center;
- justify-content:flex-end;
+#iconLeft {
+  margin-left: 25px;
+  display: flex;
+  align-items: center;
+}
+#iconRight {
+  margin-right: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 @media #{$small-down} {
   #containerGalery {
@@ -47,10 +46,10 @@
     height: 19px;
   }
 
-  #iconLeft{
-    margin-left:5px;
+  #iconLeft {
+    margin-left: 5px;
   }
-  #iconRight{
-    margin-right:5px;
+  #iconRight {
+    margin-right: 5px;
   }
 }
