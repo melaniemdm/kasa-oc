@@ -1,7 +1,7 @@
 {
   "name": "kasa-oc",
   "version": "0.1.0",
-  "homepage": "https://melaniemdm.github.io/mdm_development",
+  "homepage": "https://melaniemdm.github.io/kasa-oc",
   "private": true,
   "dependencies": {
     "@babel/core": ">=7.0.0-0 <8.0.0",
